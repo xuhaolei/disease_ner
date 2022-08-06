@@ -1,4 +1,4 @@
-# English named entity recognition of disease: Bert+bilstm+CRF<br>
+# English named entity recognition of disease: Bert+BiLSTM+CRF<br>
 English named entity recognition of disease: Bert+bilstm+CRF<br>
 tree.txt contains the project list and the functions of each folder or file. <br>
 The pre training model of Bert and the trained model are too large to upload. <br>
@@ -22,7 +22,7 @@ Another pretrained model is not ideal. <br>
 <br>
 <br>
 <br>
-英文疾病命名实体识别BERT+BiLSTM+CRF<br>
+英文疾病命名实体识别Bert+BiLSTM+CRF<br>
 tree.txt中包含了工程目录以及各个文件夹或文件的作用<br>
 bert预训练模型以及训练所得模型太大无法上传<br>
 相关参数请在disease_ner/scripts/config.py中修改<br>
