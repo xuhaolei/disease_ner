@@ -1,0 +1,6 @@
+<pad>
+B-Disease
+I-Disease
+O
+<START>
+<EOS>

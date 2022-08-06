@@ -1,0 +1,33 @@
+# 文件目录以及功能  
+─dataset 数据文件夹  
+│  ├─bert bert预训练模型，尝试了三种，文件太大github不方便传，需要vocab.txt config.json model_pytorch.bin三个文件，去抱抱脸官网下载  
+│  │  ├─alvaroalon2biobert_diseases_ner  
+│  │  ├─biobert  
+│  │  └─ncbi  
+│  ├─__pycache__  
+│  ├─原数据 原来中文的数据  
+│  ├─dev.txt 开发集  
+│  ├─train.txt 训练集  
+│  ├─test.txt 测试集  
+│  ├─tag.txt 标签  
+│  └─token_process.py 数据预处理，把原BIO文件进行tokenize得到wordpiece  
+├─readme.md 不用我多说了吧  
+├─tree.txt 你正在看的，不用我多说了吧
+├─disease_ner 主要程序文件夹  
+│  ├─main.py 主程序  
+│  ├─predict.py 调用模型进行预测  
+│  ├─dataset 不再赘述  
+│  ├─model 模型文件夹  
+│  │  ├─__init__.py  
+│  │  ├─Adversarial_Training.py 对抗训练  
+│  │  └─BERT_BiLSTM_CRF.py 模型  
+│  └─scripts 主要手稿  
+│     ├─__init__.py  
+│     ├─config.py 对抗训练estimate.py  
+│     ├─estimate.py 计算F1_score  
+│     ├─Syntactic_analysis.py 句法分析，待完善，未来GCN  
+│     ├─utils.py 工具类函数  
+│     └─__pycache__  
+└─result 存放训练所得模型  
+    └─checkpoints  
+        └─disease_result  
