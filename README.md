@@ -16,7 +16,7 @@ pytorch 1.7.1 + cuda11.0 <br>
 pytorch-crf 0.7.2 <br>
 <hr>
 Result: <br>
-Biobert F1 socre is about 85% without engineering skills, and it can reach 87% with flood method and adversarial training. Considering the corpus comes from biological paper, its generalization may be more strong. (https://huggingface.co/alvaroalon2/biobert_diseases_ner) <br>
+Biobert F1 socre is about 85% without engineering skills, and it can reach 87% with flood method and adversarial training. Considering the corpus comes from biological paper, its generalization may be stronger. (https://huggingface.co/alvaroalon2/biobert_diseases_ner) <br>
 alvaroalon2/biobert_ diseases_ Ner F1 socre is even up to 97% since the corpus is BC5CDR-diseases and NCBI-diseases. It is recommended to use this one without doubt, but the generalization ability is questionable. (https://huggingface.co/alvaroalon2/biobert_diseases_ner) <br>
 Another pretrained model is not ideal. <br>
 <br>
